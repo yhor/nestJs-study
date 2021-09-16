@@ -22,6 +22,7 @@ module.exports = {
           endOfLine: 'auto',
       },
     ],
+    "max-line-length": [true, { "limit": 120 }],
     '@typescript-eslint/interface-name-prefix': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
